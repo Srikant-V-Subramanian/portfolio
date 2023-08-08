@@ -46,8 +46,10 @@ hiddenElements.forEach((el) => observer.observe(el)) */
 .about-me {
   display: flex;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   gap: 30%;
-  height: 100%;
+  max-height: 100vh;
   margin: 12.5%;
   font-size: 2.5em;
 }
