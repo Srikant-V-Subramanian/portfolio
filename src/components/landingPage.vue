@@ -20,7 +20,7 @@ body {
     font-size: 5em;
 }
 
-.landing-page{
+.landing-page {
     display: flex;
     align-items: center;
     justify-content: center;
