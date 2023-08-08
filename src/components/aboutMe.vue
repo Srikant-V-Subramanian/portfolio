@@ -27,27 +27,19 @@ hiddenElements.forEach((el) => observer.observe(el))
 </template>
 
 <style>
-
 .profile {
     margin-top: 10%;
     border-radius: 50%;
-    max-width: 200%;
-}
-
-.about-me-picture {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    max-width: 150%;
 }
 
 .about-me {
     display: flex;
-    text-align: center;
+    text-align: justify;
     gap: 30%;
     height: 100%;
     margin: 12.5%;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .hidden {
