@@ -14,18 +14,26 @@
 </template>
 
 <style>
+
 .profile {
     margin-top: 10%;
     border-radius: 50%;
-    max-width: 150%;
+    max-width: 200%;
+}
+
+.about-me-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .about-me {
     display: flex;
-    text-align: justify;
+    text-align: center;
     gap: 30%;
     height: 100%;
     margin: 12.5%;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 </style>
