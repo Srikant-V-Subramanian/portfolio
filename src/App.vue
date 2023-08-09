@@ -1,15 +1,16 @@
 <script>
-import LandingPage from './components/landingPage.vue';
-import AboutMe from './components/aboutMe.vue'
+import LandingPage from "./components/landingPage.vue";
+import AboutMe from "./components/aboutMe.vue";
+import footerComp from "./components/footerComp.vue";
 
 export default {
-    methods: {
-        hello() {
-            alert("Hello World!");
-        }
+  methods: {
+    hello() {
+      alert("Hello World!");
     },
-    components: { LandingPage, AboutMe }
-}
+  },
+  components: { LandingPage, AboutMe, footerComp },
+};
 </script>
 
 <template>
@@ -19,4 +20,5 @@ export default {
   <section class="about-me">
     <AboutMe></AboutMe>
   </section>
+  <footerComp></footerComp>
 </template>

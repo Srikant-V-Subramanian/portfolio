@@ -54,6 +54,10 @@ hiddenElements.forEach((el) => observer.observe(el)) */
   font-size: 2.5em;
 }
 
+.about-me-text {
+  font-size: 2.5vw;
+}
+
 .about-me-picture {
   display: flex;
   justify-content: center;
