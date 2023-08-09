@@ -17,7 +17,7 @@ hiddenElements.forEach((el) => observer.observe(el)) */
 
 <template>
   <div class="about-me-picture">
-    <h1 class="abt-me-text hidden">About Me</h1>
+    <h1 class="about-me-title hidden">About Me</h1>
     <img
       class="profile hidden"
       src="https://i.pinimg.com/originals/0e/1c/10/0e1c100908962a43f711d0e2caca3a0c.gif"
@@ -40,7 +40,11 @@ hiddenElements.forEach((el) => observer.observe(el)) */
 .profile {
   margin-top: 10%;
   border-radius: 50%;
-  max-width: 200%;
+  max-width: 25vw;
+}
+
+.about-me-title {
+  font-size: 3vw;
 }
 
 .about-me {
@@ -51,11 +55,10 @@ hiddenElements.forEach((el) => observer.observe(el)) */
   gap: 30%;
   max-height: 100vh;
   margin: 12.5%;
-  font-size: 2.5em;
 }
 
 .about-me-text {
-  font-size: 2.5vw;
+  font-size: 2vw;
 }
 
 .about-me-picture {
@@ -63,6 +66,10 @@ hiddenElements.forEach((el) => observer.observe(el)) */
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+img {
+  pointer-events: none;
 }
 
 /* .hidden {
