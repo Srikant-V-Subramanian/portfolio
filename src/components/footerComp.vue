@@ -38,7 +38,7 @@ a:visited {
   background-color: black;
   color: white;
   border: 5px solid;
-  border-color: rgb(255, 255, 255);
+  border-color: white;
   font-size: 2em;
   transition: 0.7s ease-in-out;
 }
@@ -50,6 +50,7 @@ a:visited {
   border: 5px solid;
   cursor: pointer;
   transition: 0.7s ease-in-out;
+  filter: drop-shadow(0 0 0.75rem gray);
 }
 
 .btn:hover > a {
