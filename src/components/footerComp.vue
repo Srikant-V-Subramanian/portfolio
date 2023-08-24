@@ -12,6 +12,8 @@
 
 <style>
 .footer {
+  color: white;
+  background-color: #1e1b18;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +37,7 @@ a:visited {
   justify-content: center;
   align-items: center;
   gap: 5%;
-  background-color: black;
+  background-color: #1e1b18;
   color: white;
   border: 5px solid;
   border-color: white;
@@ -46,7 +48,7 @@ a:visited {
 .btn:hover {
   background-color: white;
   color: black;
-  border-color: black;
+  border-color: #1e1b18;
   border: 5px solid;
   cursor: pointer;
   transition: 0.7s ease-in-out;
@@ -54,7 +56,7 @@ a:visited {
 }
 
 .btn:hover > a {
-  color: black;
+  color: #1e1b18;
   transition: 0.7s ease-in-out;
 }
 

@@ -48,13 +48,16 @@ hiddenElements.forEach((el) => observer.observe(el)) */
 }
 
 .about-me {
+  color: white;
+  background-color: #3e92cc;
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
   gap: 30%;
   max-height: 100vh;
-  margin: 12.5%;
+  min-height: 100vh;
+  padding: 5em;
 }
 
 .about-me-text {

@@ -1,16 +1,6 @@
 <template>
   <h1 class="msg hidden">Hello!</h1>
   <p class="hidden">I'm Srikant! A developer cum music producer</p>
-  <div class="custom-shape-divider-bottom-1691758750">
-    <svg
-      data-name="Layer 1"
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 1200 120"
-      preserveAspectRatio="none"
-    >
-      <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
-    </svg>
-  </div>
 </template>
 
 <style>
@@ -35,7 +25,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: black;
+  background-color: #d8315b;
   color: white;
   flex-direction: column;
   gap: 3em;
