@@ -24,7 +24,7 @@
 
 .site-under-dev {
   font-family: sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 a:link,
@@ -42,9 +42,9 @@ a:visited {
   color: white;
   border: 5px solid;
   border-color: white;
-  font-size: 3em;
+  font-size: 2em;
   transition: 0.7s ease-in-out;
-  padding: 0.5em;
+  padding: 0.5em, 1em;
 }
 
 .btn:hover {

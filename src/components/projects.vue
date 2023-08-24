@@ -3,8 +3,8 @@
   <div class="cards">
     <div class="card-1">
       <img
-        height="540px"
-        width="960px"
+        height="360px"
+        width="640px"
         src="../../public/project1.png"
         alt=""
       />
@@ -17,8 +17,8 @@
     </div>
     <div class="card-2">
       <img
-        height="540px"
-        width="960px"
+        height="360px"
+        width="640px"
         src="../../public/project2.png"
         alt=""
       />
@@ -41,7 +41,7 @@
 }
 
 .my-projects > h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   margin-bottom: 10%;
   margin-top: 5%;
 }
@@ -73,13 +73,13 @@ img {
 
 .card-1 > button {
   margin: 4rem;
-  padding: 1rem;
+  padding: 0.5rem;
   margin-bottom: 7rem;
   background-color: #0a2463;
 }
 .card-2 > button {
   margin: 4rem;
-  padding: 1rem;
+  padding: 0.5rem;
   margin-bottom: 7rem;
   background-color: #0a2463;
 }

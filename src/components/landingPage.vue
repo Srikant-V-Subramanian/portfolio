@@ -17,11 +17,11 @@ body {
 }
 
 .msg {
-  font-size: 7em;
+  font-size: 6em;
 }
 
 .landing-page > p {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .landing-page {
