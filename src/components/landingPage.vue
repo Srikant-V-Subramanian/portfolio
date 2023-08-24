@@ -17,7 +17,11 @@ body {
 }
 
 .msg {
-  font-size: 5em;
+  font-size: 7em;
+}
+
+.landing-page > p {
+  font-size: 2em;
 }
 
 .landing-page {
@@ -31,24 +35,7 @@ body {
   gap: 3em;
 }
 
-.custom-shape-divider-bottom-1691758750 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1691758750 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 186px;
-}
-
-.custom-shape-divider-bottom-1691758750 .shape-fill {
-  fill: #ffffff;
+html {
+  scroll-behavior: smooth;
 }
 </style>

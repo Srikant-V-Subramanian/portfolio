@@ -1,0 +1,93 @@
+<template>
+  <h1>My Projects</h1>
+  <div class="cards">
+    <div class="card-1">
+      <img
+        height="540px"
+        width="960px"
+        src="../../public/project1.png"
+        alt=""
+      />
+
+      <button class="btn">
+        <a href="https://music-player-mu-weld.vercel.app" target="_blank"
+          >Music Player 🎧</a
+        >
+      </button>
+    </div>
+    <div class="card-2">
+      <img
+        height="540px"
+        width="960px"
+        src="../../public/project2.png"
+        alt=""
+      />
+      <button class="btn">
+        <a href="#">TheBlog™️ App </a>
+      </button>
+    </div>
+  </div>
+</template>
+
+<style>
+.my-projects {
+  color: white;
+  background-color: #0a2463;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.my-projects > h1 {
+  font-size: 5rem;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  pointer-events: none;
+}
+
+.card-1,
+.card-2 {
+  display: flex;
+  flex-direction: column;
+  border: white;
+  margin: 0rem 3rem;
+}
+
+.card-1 > img {
+  filter: drop-shadow(0 0 0.75rem white);
+}
+
+.card-2 > img {
+  filter: drop-shadow(0 0 0.75rem white);
+}
+
+.card-1 > button {
+  margin: 4rem;
+  padding: 1rem;
+  margin-bottom: 7rem;
+  background-color: #0a2463;
+}
+.card-2 > button {
+  margin: 4rem;
+  padding: 1rem;
+  margin-bottom: 7rem;
+  background-color: #0a2463;
+}
+
+.card-1 > button:hover {
+  border-color: #0a2463;
+}
+.card-2 > button:hover {
+  border-color: #0a2463;
+}
+</style>

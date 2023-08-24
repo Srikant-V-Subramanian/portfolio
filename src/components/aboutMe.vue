@@ -57,7 +57,7 @@ hiddenElements.forEach((el) => observer.observe(el)) */
   gap: 30%;
   max-height: 100vh;
   min-height: 100vh;
-  padding: 5em;
+  padding: 10em;
 }
 
 .about-me-text {
