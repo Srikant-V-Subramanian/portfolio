@@ -29,9 +29,11 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #d8315b;
+  background-image: url("../../public/stacked-steps-haikei.svg");
   color: white;
   flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
   gap: 3em;
 }
 
