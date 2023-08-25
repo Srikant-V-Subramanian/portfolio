@@ -1,6 +1,6 @@
 <template>
   <h1 class="msg hidden">Hello!</h1>
-  <p class="hidden">I'm Srikant! A developer cum music producer</p>
+  <p class="hidden">I'm Srikant! A developer and music producer</p>
 </template>
 
 <style>

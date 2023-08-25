@@ -97,6 +97,14 @@
     align-items: center;
   }
 
+  .card-1 {
+    margin: 0;
+  }
+
+  .card-2 {
+    margin: 0;
+  }
+
   .card-1 > img {
     pointer-events: none;
     height: 31.5vh;
