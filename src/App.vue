@@ -16,15 +16,18 @@ export default {
 </script>
 
 <template>
+  <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "easeInOutCubic". -->
   <OpenGraph></OpenGraph>
-  <section class="landing-page">
-    <LandingPage></LandingPage>
-  </section>
-  <section class="about-me">
-    <AboutMe></AboutMe>
-  </section>
-  <section class="my-projects">
-    <Projects></Projects>
-  </section>
-  <footerComp></footerComp>
+  <div class="section">
+    <section class="landing-page">
+      <LandingPage></LandingPage>
+    </section>
+    <section class="about-me">
+      <AboutMe></AboutMe>
+    </section>
+    <section class="my-projects">
+      <Projects></Projects>
+    </section>
+    <footerComp></footerComp>
+  </div>
 </template>

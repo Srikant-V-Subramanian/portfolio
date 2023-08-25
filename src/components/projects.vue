@@ -2,12 +2,7 @@
   <h1>My Projects</h1>
   <div class="cards">
     <div class="card-1">
-      <img
-        height="360px"
-        width="640px"
-        src="../../public/project1.png"
-        alt=""
-      />
+      <img src="../../public/project1.png" alt="" />
 
       <button class="btn">
         <a href="https://music-player-mu-weld.vercel.app" target="_blank"
@@ -16,12 +11,7 @@
       </button>
     </div>
     <div class="card-2">
-      <img
-        height="360px"
-        width="640px"
-        src="../../public/project2.png"
-        alt=""
-      />
+      <img src="../../public/project2.png" alt="" />
       <button class="btn">
         <a href="#">TheBlog™️ App </a>
       </button>
@@ -51,8 +41,16 @@
   flex-direction: row;
 }
 
-img {
+.card-1 > img {
   pointer-events: none;
+  height: 45vh;
+  width: 80vh;
+}
+
+.card-2 > img {
+  pointer-events: none;
+  height: 45vh;
+  width: 80vh;
 }
 
 .card-1,
@@ -89,5 +87,41 @@ img {
 }
 .card-2 > button:hover {
   border-color: #0a2463;
+}
+
+@media only screen and (max-width: 1140px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-1 > img {
+    pointer-events: none;
+    height: 31.5vh;
+    width: 56vh;
+  }
+
+  .card-2 > img {
+    pointer-events: none;
+    height: 31.5vh;
+    width: 56vh;
+  }
+
+  .card-1 > button {
+    margin: 4rem;
+    padding: 0.5rem;
+    margin-bottom: 7rem;
+    font-size: 1.5rem;
+    background-color: #0a2463;
+  }
+  .card-2 > button {
+    margin: 4rem;
+    padding: 0.5rem;
+    margin-bottom: 7rem;
+    font-size: 1.5rem;
+    background-color: #0a2463;
+  }
 }
 </style>

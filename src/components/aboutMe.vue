@@ -1,19 +1,4 @@
-<script>
-/* const observer = new IntersectionObserver((enteries) => {
-  enteries.forEach((entry) => {
-    console.log(entry)
-    if (entry.isIntersecting) {
-      entry.target.classList.add('show')
-    } else {
-      entry.target.classList.remove('show')
-    }
-  })
-})
-
-const hiddenElements = document.querySelectorAll('.hidden')
-
-hiddenElements.forEach((el) => observer.observe(el)) */
-</script>
+<script></script>
 
 <template>
   <div class="about-me-picture">
@@ -75,22 +60,28 @@ img {
   pointer-events: none;
 }
 
-/* .hidden {
-    opacity: 0;
-    filter: blur(5px);
-    transform: translateX(-100%);
-    transition: all 2s;
-}
+@media only screen and (max-width: 1140px) {
+  .profile {
+    margin-top: 10%;
+    border-radius: 50%;
+    max-width: 200px;
+  }
 
-.show {
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
-}
+  .about-me {
+    flex-direction: column;
+    padding: 5rem;
+    gap: 0%;
+  }
+  .about-me-picture {
+    margin: 15%;
+  }
 
-@media(prefers-reduced-motion) {
-    .hidden {
-        transition: none;
-    }
-} */
+  .about-me-title {
+    font-size: 2.5rem;
+  }
+
+  .about-me-text {
+    font-size: 1.2rem;
+  }
+}
 </style>
