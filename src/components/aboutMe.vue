@@ -34,7 +34,9 @@
 
 .about-me {
   color: white;
-  background-color: #3e92cc;
+  background-image: url("../../public/stacked-waves-haikei.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -82,6 +84,7 @@ img {
 
   .about-me-text {
     font-size: 1.2rem;
+    padding: 0;
   }
 }
 </style>
