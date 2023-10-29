@@ -1,6 +1,8 @@
 <template>
-  <h1 class="msg hidden">Hello!</h1>
-  <p class="hidden">I'm Srikant! A developer and music producer</p>
+  <h1 class="msg hidden animate__animated animate__fadeInLeft">Hello!</h1>
+  <p class="hidden animate__animated animate__fadeInLeft">
+    I'm Srikant! A developer and music producer
+  </p>
 </template>
 
 <style>
@@ -13,7 +15,7 @@
 }
 
 body {
-  font-family: "Inika", serif;
+  font-family: "Inika", serif !important;
 }
 
 .msg {
@@ -47,3 +49,7 @@ html {
   display: none;
 }
 </style>
+
+<script setup>
+import "animate.css";
+</script>

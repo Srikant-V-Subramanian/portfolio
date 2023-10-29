@@ -4,6 +4,9 @@ import AboutMe from "./components/aboutMe.vue";
 import footerComp from "./components/footerComp.vue";
 import OpenGraph from "./components/OpenGraph.vue";
 import Projects from "./components/projects.vue";
+import "../src/scss/style.scss";
+
+import * as bootstrap from "bootstrap";
 
 export default {
   methods: {

@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <h1 class="site-under-dev">THIS SITE IS UNDER DEVELOPMENT</h1>
-    <button class="btn">
+    <button class="button">
       <span><svg-icon type="mdi" :path="path" class="git-ico"></svg-icon></span
       ><a href="https://github.com/Srikant-V-Subramanian/" target="_blank"
         >My GitHub Profile</a
@@ -33,7 +33,7 @@ a:visited {
   text-decoration: none;
 }
 
-.btn {
+.button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,7 +47,7 @@ a:visited {
   padding: 0.5em, 1em;
 }
 
-.btn:hover {
+.button:hover {
   background-color: white;
   color: #1e1b18;
   border-color: #1e1b18;
@@ -57,7 +57,7 @@ a:visited {
   filter: drop-shadow(0 0 0.75rem #ffffff);
 }
 
-.btn:hover > a {
+.button:hover > a {
   color: #1e1b18;
   transition: 0.7s ease-in-out;
 }

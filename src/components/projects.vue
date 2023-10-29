@@ -1,18 +1,19 @@
 <template>
+  <meta name="view-transition" content="same-origin" />
   <h1>My Projects</h1>
   <div class="cards">
-    <div class="card-1">
+    <div class="card-1 animate__animated animate__fadeInLeft">
       <img src="../../public/project1.png" alt="" />
 
-      <button class="btn">
+      <button class="button">
         <a href="https://music-player-mu-weld.vercel.app" target="_blank"
           >Music Player 🎧</a
         >
       </button>
     </div>
-    <div class="card-2">
+    <div class="card-2 animate__animated animate__fadeInLeft">
       <img src="../../public/project2.png" alt="" />
-      <button class="btn">
+      <button class="button">
         <a href="#">TheBlog™️ App </a>
       </button>
     </div>

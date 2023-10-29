@@ -1,15 +1,19 @@
-<script></script>
+<script>
+import "animate.css";
+</script>
 
 <template>
-  <div class="about-me-picture">
-    <h1 class="about-me-title hidden">About Me</h1>
+  <div class="about-me-picture animate__animated animate__fadeInLeft">
+    <h1 class="about-me-title hidden animate__animated animate__fadeInLeft">
+      About Me
+    </h1>
     <img
       class="profile hidden"
       src="https://i.pinimg.com/originals/0e/1c/10/0e1c100908962a43f711d0e2caca3a0c.gif"
       alt=""
     />
   </div>
-  <div class="about-me-text hidden">
+  <div class="about-me-text animate__animated animate__fadeInLeft">
     <p>
       I am a high school student who is really passionate about computers and
       music. I am a web developer and have quite a bit of experience in building
