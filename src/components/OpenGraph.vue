@@ -8,4 +8,5 @@
   <meta property="description" content="Srikant V | My Portfolio Website" />
   <meta property="og:title" content="Srikant V | My Portfolio Website" />
   <meta property="og:url" content="srikant-subramanian.tech" />
+  <meta property="og:image" content="../../public/ProfilePicturePhoto.png" />
 </template>
