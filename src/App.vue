@@ -9,11 +9,6 @@ import "../src/scss/style.scss";
 import * as bootstrap from "bootstrap";
 
 export default {
-  methods: {
-    hello() {
-      alert("Hello World!");
-    },
-  },
   components: { LandingPage, AboutMe, footerComp, OpenGraph, Projects },
 };
 </script>

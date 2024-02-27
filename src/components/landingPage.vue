@@ -1,7 +1,7 @@
 <template>
   <h1 class="msg hidden animate__animated animate__fadeInLeft">Hello!</h1>
   <p class="hidden animate__animated animate__fadeInLeft">
-    I'm Srikant! A developer and music producer
+    I'm Srikant! An aspiring developer and a music producer
   </p>
 </template>
 

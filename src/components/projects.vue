@@ -3,18 +3,18 @@
   <h1>My Projects</h1>
   <div class="cards">
     <div class="card-1 animate__animated animate__fadeInLeft">
-      <img src="../../public/project1.png" alt="" />
+      <img src="../../public/project2.png" alt="" />
 
       <button class="button">
-        <a href="https://music-player-mu-weld.vercel.app" target="_blank"
-          >Music Player 🎧</a
+        <a href="https://open.spotify.com/track/1lteFFszvZtULtAl4sTQUw?si=2c195a0c694f498a" target="_blank"
+          >NEW SINGLE ON SPOTIFY 🎵</a
         >
       </button>
     </div>
     <div class="card-2 animate__animated animate__fadeInLeft">
-      <img src="../../public/project2.png" alt="" />
+      <img src="../../public/project1.png" alt="" />
       <button class="button">
-        <a href="#">TheBlog™️ App </a>
+        <a href="#">MUSIC PLAYER 🎧 </a>
       </button>
     </div>
   </div>
