@@ -7,6 +7,7 @@
         >My GitHub Profile</a
       >
     </button>
+    <h5>reach out to me at : <a href="mailto:srikantvenkatsubramanian@gmail.com">srikantvenkatsubramanian@gmail.com</a></h5>
   </div>
 </template>
 
